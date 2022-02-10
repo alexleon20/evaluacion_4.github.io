@@ -1,0 +1,78 @@
+.square{ /*clase square*/
+    float: left;/*para que se apilen una al lado de otro*/
+    width: 30%; /**/
+    height: 0;
+    padding-bottom: 30%;
+    background-color: #ABD5F3;/*color de fondo*/
+    margin: 7px; /* para separar los cuadros*/
+    border-radius: 30%; /*con 80% lo dejo redondo*/
+    transition: background 0.6s;
+    
+}
+
+.container { /**/
+    max-width: 600px;   /*un ancho y central*/
+    text-align: center; /*centrar imagen*/
+    margin: 0 auto; /*distribuye el margen de forma equidistante*/
+}
+
+
+body {
+    background:#232323;
+    margin: 0;
+
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin: 0;
+    font-weight: normal; /* peso de fuente */
+    text-transform: uppercase; /* transformación de texto */
+    
+}
+
+
+#colorDisplay {
+    display: block;
+    font-size: 100%;
+}
+
+
+button {
+    border: none;
+    height: 100%;  /* altura */
+    font-weight: lighter; /* peso de fuente */
+    color: black;
+    font-size: medium ; /* tamaño de fuente */
+    letter-spacing: 1px;  /* espaciado de letras */
+}
+
+
+button:hover {  /*botón flotante*/
+    background-color: #0B736A;
+    color: white;
+    font-size: medium;
+
+}
+
+
+#stripe {
+   background-color: white;
+   height: 35px ;
+   text-align: center ; 
+   color: black;
+   
+   
+}
+
+
+#message {
+    font-size: medium;
+    display: inline-block;
+    width: 20%;
+  }
+
+
+
+
